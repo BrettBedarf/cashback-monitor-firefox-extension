@@ -1,0 +1,17 @@
+{
+	"description": "Opens current website's listing in Cashback Monitor to find best cashback deals.",
+	"manifest_version": 2,
+	"name": "open-cashback-monitor",
+	"version": "1.0",
+	"permissions": ["<all_urls>", "tabs"],
+
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+	"browser_action": {
+		"default_icon": {
+			"32": "icons/icon.png"
+		}
+	}
+}
