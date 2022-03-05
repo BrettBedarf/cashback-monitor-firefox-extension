@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/BrettBedarf/cashback-monitor-firefox-extension/issues"
   },
-  "homepage": "https://github.com/BrettBedarf/cashback-monitor-firefox-extension#readme"
+  "homepage": "https://github.com/BrettBedarf/cashback-monitor-firefox-extension#readme",
+  "devDependencies": {
+    "web-ext": "^6.7.0"
+  }
 }
