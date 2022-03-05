@@ -1,0 +1,23 @@
+{
+  "name": "cashback-monitor-ff-ext",
+  "version": "1.0.0",
+  "description": "Firefox extension to open current website's listing on cashbackmonitor.com",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/web-ext/bin/web-ext build",
+    "run": "node_modules/web-ext/bin/web-ext run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrettBedarf/cashback-monitor-firefox-extension.git"
+  },
+  "keywords": [
+    "cashbackmonitor.com"
+  ],
+  "author": "Brett Bedarf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrettBedarf/cashback-monitor-firefox-extension/issues"
+  },
+  "homepage": "https://github.com/BrettBedarf/cashback-monitor-firefox-extension#readme"
+}
